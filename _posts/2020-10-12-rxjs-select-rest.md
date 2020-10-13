@@ -24,7 +24,7 @@ Of particular note were the following assertions:
 2.	RxJS is hard to test.
 
 # Hard to Learn
-Admittedly RxJS has a steep learning curve. That said, it should only take an week or so to become accustomed to using it. Once you understand the basics, the more esoteric operators are mostly a matter of finding them. There is a great website that makes this easier, which is where I found the `fromEvent` and `combineLatest` operators I use below. https://rxjs.dev/operator-decision-tree
+Admittedly RxJS has a steep learning curve. That said, it should only take a week or so to become accustomed to using it. Once you understand the basics, the more esoteric operators are mostly a matter of finding them. There is a great website that makes this easier, which is where I found the `fromEvent` and `combineLatest` operators I use below. https://rxjs.dev/operator-decision-tree
 
 # Hard to Test
 Testing Angular is itself often an exercise in frustration. The key is knowing what to test and what not to test. I wrote a [blog post on that very subject](https://walkingriver.com/stop-testing-my-code/). Some people go overboard and try to achieve 100% code coverage. I have found that more than about 80-85% is usually counter-productive. Often, people will write brittle (or worse, useless) tests to try to hit some magical coverage number.
